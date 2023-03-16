@@ -1,38 +1,98 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+  --neon-green-light: hsl(150, 82%, 82%);
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+}
+
+body {
+  min-height: 100vh;
+  font-size: 28px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  line-height: 1.5;
+  background-color: var(--dark-blue);
+}
+
+.advice--container {
+  width: 375px;
+  height: auto;
+  min-height: 350px;
+  border-radius: 10px;
+  background-color: var(--dark-grayish-blue);
+  margin: 150px auto;
+  padding: 50px 30px 70px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+}
+
+.advice--id {
+  color: var(--neon-green);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.advice--text {
+  color: var(--light-cyan);
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.advice--divider {
+  transform: scale(1.1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.advice--button {
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+  background-color: var(--neon-green);
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  position: absolute;
+  bottom: -30px;
 }
 
-.App-link {
-  color: #61dafb;
+.advice--button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 20px 1px var(--neon-green);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.advice--button:active {
+  background-color: var(--neon-green-light);
+  box-shadow: 0 0 20px 1px var(--neon-green-light);
+}
+
+@media (min-width: 600px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .advice--container {
+    width: 550px;
+    height: auto;
+    min-height: 300px;
+    padding: 50px 30px;
+  }
+
+  .advice--divider {
+    transform: scale(1);
   }
 }
