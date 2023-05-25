@@ -1,21 +1,19 @@
-import React from "react";
-import Divider from "./images/pattern-divider-mobile.svg";
-import DividerDesktop from "./images/pattern-divider-desktop.svg";
-import Dice from "./images/icon-dice.svg";
+import React, { useState, useEffect } from "react"
+import Divider from "./images/pattern-divider-mobile.svg"
+import DividerDesktop from "./images/pattern-divider-desktop.svg"
+import Dice from "./images/icon-dice.svg"
 
-function Advice() {
-    const [advice, setAdvice] = React.useState({
+const Advice = () => {
+    const [advice, setAdvice] = useState({
         "id": "",
         "advice": ""
-      });
+      })
     
-    const [count, setCount] = React.useState(0);
+    const [count, setCount] = useState(0)
 
-    function getAdvice() {
-      setCount(prevCount => prevCount + 1);
-    }
+    const getAdvice = () => setCount(prevCount => prevCount + 1)
 
-    React.useEffect(() => {
+    useEffect(() => {
       fetch("https://api.adviceslip.com/advice")
         .then(response => response.json())
         .then(adviceData => setAdvice(adviceData.slip))
@@ -36,4 +34,4 @@ function Advice() {
     )
 }
 
-export default Advice;
+export default Advice
