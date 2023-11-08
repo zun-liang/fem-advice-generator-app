@@ -14,7 +14,6 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
   - [Continued development](#continued-development)
 - [Author](#author)
 
-
 ## Overview
 
 ### The challenge
@@ -29,7 +28,6 @@ Users should be able to:
 
 - screenshot-desktop: [here](./screenshots/screenshot-desktop.png)
 - screenshot-mobile: [here](./screenshots/screenshot-mobile.png)
-
 
 ### Links
 
@@ -46,7 +44,6 @@ Users should be able to:
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 
-
 ### What I learned
 
 - React useState
@@ -60,5 +57,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Zun Liang](https://zun-liang.github.io/)
+- Website - [Zun Liang](https://zunldev.com/)
+- GitHub - [@zun-liang](https://github.com/zun-liang)
 - Frontend Mentor - [@zun-liang](https://www.frontendmentor.io/profile/zun-liang)
+- freeCodeCamp - [@zun-liang](https://www.freecodecamp.org/zun-liang)
