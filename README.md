@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [here](https://www.frontendmentor.io/solutions/advice-generator-app-using-react-js-tcTQru8_Vq)
-- Live Site URL: [here](https://zun-liang.github.io/advice-generator-app-main/)
+- Live Site URL: [here](https://zun-liang.github.io/fem-advice-generator-app/)
 
 ## My process
 
