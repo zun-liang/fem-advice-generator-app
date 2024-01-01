@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/advice-generator-app-main/static/css/main.32942013.css",
-    "main.js": "/advice-generator-app-main/static/js/main.72c262c5.js",
-    "index.html": "/advice-generator-app-main/index.html",
-    "static/media/icon-dice.svg": "/advice-generator-app-main/static/media/icon-dice.08691e4c24c11b5ba564e06b1f6bcbf3.svg",
-    "static/media/pattern-divider-desktop.svg": "/advice-generator-app-main/static/media/pattern-divider-desktop.ed9685263f6b47d21c8848f7d8bdd10e.svg",
-    "static/media/pattern-divider-mobile.svg": "/advice-generator-app-main/static/media/pattern-divider-mobile.aca38726412164df099c43d4f2fed72e.svg",
-    "main.32942013.css.map": "/advice-generator-app-main/static/css/main.32942013.css.map",
-    "main.72c262c5.js.map": "/advice-generator-app-main/static/js/main.72c262c5.js.map"
+    "main.css": "/fem-advice-generator-app/static/css/main.32942013.css",
+    "main.js": "/fem-advice-generator-app/static/js/main.afeda0b3.js",
+    "index.html": "/fem-advice-generator-app/index.html",
+    "static/media/icon-dice.svg": "/fem-advice-generator-app/static/media/icon-dice.08691e4c24c11b5ba564e06b1f6bcbf3.svg",
+    "static/media/pattern-divider-desktop.svg": "/fem-advice-generator-app/static/media/pattern-divider-desktop.ed9685263f6b47d21c8848f7d8bdd10e.svg",
+    "static/media/pattern-divider-mobile.svg": "/fem-advice-generator-app/static/media/pattern-divider-mobile.aca38726412164df099c43d4f2fed72e.svg",
+    "main.32942013.css.map": "/fem-advice-generator-app/static/css/main.32942013.css.map",
+    "main.afeda0b3.js.map": "/fem-advice-generator-app/static/js/main.afeda0b3.js.map"
   },
   "entrypoints": [
     "static/css/main.32942013.css",
-    "static/js/main.72c262c5.js"
+    "static/js/main.afeda0b3.js"
   ]
 }
